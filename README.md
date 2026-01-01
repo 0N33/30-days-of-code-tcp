@@ -16,3 +16,11 @@ created using only HTML as part of the 30 Days of Code initiative.
 - Home Page (index.html)
 - About Page (about.html)
 
+## Screenshots
+
+### Home Page
+![Home Page Screenshot](home.jpg)
+
+### About Page
+![About Page Screenshot](about.jpg)
+
