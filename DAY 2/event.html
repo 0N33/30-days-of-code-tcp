@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Electika Accomodation Registration</title>
+    </head>
+    <body>
+        <h1>Eclectika, The Cultural Festival of National Institute of Technology Raipur : REGISTRATION OF ACCOMODATION</h1>
+        <h2>Accommodation & Event Schedule</h2>
+        <table border="1">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Activity</th>
+                <th>Venue</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>08:00 AM</td>
+            <td>Hostel Check-in</td>
+            <td>Sirpur Hostel</td>
+        </tr>
+
+        <tr>
+            <td>10:30 AM</td>
+            <td>Orientation</td>
+            <td>Central Garden</td>
+        </tr>
+
+        <tr>
+            <td>02:00 PM</td>
+            <td>Event Begins!!!</td>
+            <td>MAIN BUILDING</td>
+        </tr>
+        </tbody>
+    </table>
+    <p>Choose your passes:</p>
+
+    <input type="radio" id="general" name="ticket" value="general">
+    <label for="general">EVENT PASS</label><br>
+
+    <input type="radio" id="event_acc" name="ticket" value="event_accommodation">
+    <label for="event_acc">Event & Accommodation Pass</label><br>
+
+    <input type="radio" id="acc_only" name="ticket" value="accommodation_only">
+    <label for="acc_only">Accommodation only Pass</label><br><br>
+
+    <h2>Accommodation Registration Form</h2>
+    <form action="submit.html" method="post">
+    <label for="name">Participant Full Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="email">Email ID:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="phone">Phone Number:</label><br>
+    <input type="number" id="phone" name="phone"><br><br>
+    <label for="arrival">Date of Arrival:</label><br>
+    <input type="date" id="arrival" name="arrival"><br><br>
+    <p>Accommodation Requirement:</p>
+
+    <input type="radio" id="shared" name="accommodation" value="shared">
+    <label for="shared">Shared Room</label><br>
+
+    <input type="radio" id="dorm" name="accommodation" value="dorm">
+    <label for="dorm">Dorm Room</label><br>
+
+    <input type="radio" id="none" name="accommodation" value="none">
+    <label for="none">No Accommodation Required</label><br><br>
+
+    <p>In case of any special request, kindly mention below</p>    
+    <textarea id="requests" name="requests" rows="4" cols="40"></textarea><br><br>
+    <button type="submit">Submit Registration</button>
+    </form>    
+
+    </body>
+</html>
