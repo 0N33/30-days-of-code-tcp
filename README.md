@@ -16,7 +16,7 @@ created using only HTML as part of the 30 Days of Code initiative.
 - Home Page (index.html)
 - About Page (about.html)
 
-## Screenshots
+## Screenshots (DAY-1)
 
 ### Home Page
 ![Home Page Screenshot](home.jpeg)
@@ -24,3 +24,5 @@ created using only HTML as part of the 30 Days of Code initiative.
 ### About Page
 ![About Page Screenshot](about.jpeg)
 
+## Screenshots (DAY-2
+)
