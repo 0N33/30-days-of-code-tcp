@@ -24,5 +24,8 @@ created using only HTML as part of the 30 Days of Code initiative.
 ### About Page
 ![About Page Screenshot](about.jpeg)
 
-## Screenshots (DAY-2
-)
+## Screenshots (DAY-2)
+
+### Event Home Page
+![Event Home Page Screenshot](day2.jpeg)
+
