@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #1f2a41;
+    --background: #2c78c3;
+    --text: #111827;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+    line-height: 2;
+}
+
+.skills {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    margin-bottom: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+}
+
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: bold;    
+
+}
+
+nav a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.btn {
+    transition: background-color 0.3s ease;
+}
+.btn:hover {
+    background-color: #1e40af;
+}
+
+.btn {
+    cursor: pointer;
+}
+.btn:hover {
+    transform: translateY(-2px);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+}
+
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+p {
+    margin-bottom: 10px;
+}
+section {
+    margin-bottom: 40px;
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.quote {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.intro {
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: white;
+    padding: 60px 40px;
+    border-radius: 16px;
+    margin-bottom: 60px;
+}
+
+.intro h2 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.intro p {
+    max-width: 600px;
+    margin-bottom: 20px;
+    font-size: 1.05rem;
+}
+
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: white;
+    padding: 60px;
+    border-radius: 20px;
+    margin-bottom: 60px;
+}
+
+
+/* ABOUT PAGE STYLES */
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Definition list (Strengths & Interests) */
+dl {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #374151;
+}
+
+/* Back link */
+section a {
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin-top: 40px;
+}
