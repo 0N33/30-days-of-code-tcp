@@ -29,10 +29,12 @@ created using only HTML as part of the 30 Days of Code initiative.
 ### Home Page
 ![Event Home Page Screenshot](day3-1.jpeg)
 
+### About Page
+![Event Home Page Screenshot](day3-2.jpeg)
+
 ## Screenshots (DAY-4)
 
 ### Landing Page
 ![Landing Page Screenshot](day4.jpeg)
 
-### About Page
-![Event Home Page Screenshot](day3-2.jpeg)
+
