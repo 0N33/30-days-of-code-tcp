@@ -37,4 +37,6 @@ created using only HTML as part of the 30 Days of Code initiative.
 ### Landing Page
 ![Landing Page Screenshot](day4.jpeg)
 
+## Screenshots (DAY-4)
 
+![TIC TAC TOE Screenshot](day5.png)
