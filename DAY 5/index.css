@@ -1,0 +1,93 @@
+:root {
+    --bg-color: #0f0c29;
+    --neon-blue: #00d2ff;
+    --neon-pink: #ff007f;
+    --text-color: #fff;
+}
+
+body {
+    background: radial-gradient(circle, #24243e, #0f0c29);
+    color: var(--text-color);
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container { text-align: center; }
+
+h1 span { color: var(--neon-pink); text-shadow: 0 0 10px var(--neon-pink); }
+
+.status {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* The Board Grid */
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid var(--neon-blue);
+    box-shadow: 0 0 5px var(--neon-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cell:hover { background: rgba(0, 210, 255, 0.2); }
+
+/* SVG Icons for X and O */
+.cell svg {
+    width: 60px;
+    height: 60px;
+    animation: appear 0.5s ease-out;
+}
+
+@keyframes appear {
+    from { transform: scale(0); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+/* Win Animation */
+.cell.winner {
+    background: var(--neon-pink);
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); box-shadow: 0 0 20px var(--neon-pink); }
+    100% { transform: scale(1); }
+}
+
+button {
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid var(--neon-pink);
+    color: var(--neon-pink);
+    font-family: 'Orbitron';
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: var(--neon-pink);
+    color: white;
+    box-shadow: 0 0 15px var(--neon-pink);
+}
