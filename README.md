@@ -47,6 +47,6 @@ created using only HTML as part of the 30 Days of Code initiative.
 
 ## Screenshots (DAY-7)
 
-![Time complexity Screenshot](Day7.jpeg)
+![Time complexity Screenshot](day7.jpeg)
 
 
