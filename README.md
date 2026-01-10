@@ -60,7 +60,7 @@ created using only HTML as part of the 30 Days of Code initiative.
 
 ## Screenshots (DAY-10)
 
-![Leetcode 4 Screenshot](day10.png)
+![Leetcode 4 Screenshot](day10.jpeg)
 
 
 
