@@ -58,3 +58,9 @@ created using only HTML as part of the 30 Days of Code initiative.
 
 ![Leetcode 3 Screenshot](day9.png)
 
+## Screenshots (DAY-10)
+
+![Leetcode 4 Screenshot](day10.png)
+
+
+
